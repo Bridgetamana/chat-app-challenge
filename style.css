@@ -1,0 +1,222 @@
+@import url(https://fonts.google.com/specimen/Rubik);
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(270, 20%, 96%);
+    font-family: 'Rubik' sans-serif;
+}
+
+.main_page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main_page::before {
+    content: "";
+    position: absolute;
+    left: -80px;
+    top: 0;
+    width: 400px;
+    height: 650px;
+    background: hsl(264, 100%, 61%);
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+ .main_phone_screen {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.phone_screen {			
+    width: 280px;
+	height: 540px;
+	background: hsl(210, 5%, 92%);
+	border: 10px solid white;
+	border-radius: 30px;
+}
+
+.profile_heading {
+    width: 100%;
+	height: 60px;
+	background: linear-gradient(to right, #7663EB, #B545F0);
+	border-radius: 18px 18px 10px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.avatar {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	border: 3px solid white;
+	margin-top: 1em;
+}
+
+.arrow {
+    width: 15px;
+    height: 15px;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+.menu_icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 1.3em;
+    margin-right: 0.5em;
+}
+
+.smalltext {
+	font-weight: 400;
+    font-size: 10px;
+	color: white;
+}
+
+.boldtext {
+	font-weight: 700;
+    font-size: 16px;
+	color: white;
+}
+
+.profile_text {
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: 1em;
+}
+
+.chat {
+	padding: 8px;
+}
+		
+.chat-box_outgoing .chat-box_upcoming {
+	height: auto;
+}		
+
+.message {
+	font-size: 13px;
+	font-weight: 500;
+	padding: 6px 6px;
+	border-radius: 8px 8px 8px 2px;
+	display: inline-block;
+	margin: 2px 0;
+	float: right;
+}
+
+.chat-box_outgoing {
+	width: 70%;
+	display: inline-block;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.chat-box_outgoing .message {
+	color: hsl(271, 15%, 43%);
+}
+
+.chat-box_upcoming {
+	width: 60%;
+	float: right;
+	display: inline-block;
+	margin: 6px 0;
+}
+				
+
+.chat-box_upcoming .img {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 4px;			
+}
+
+.chat-box_upcoming .img img {
+	width: 50px;
+	height: auto;
+	padding: 0px 2px;
+	border-radius: 10px;
+}
+
+.chat-box_outgoing .message {
+    background: rgb(235, 235, 235);
+	color: #B545F0;
+}
+
+.chat-box_upcoming .message {
+	background: #fff;
+}		
+
+.box {
+	width: 65%;
+}
+
+.first_box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: hsl(264, 100%, 61%);
+	padding: 6px 8px;
+	color: white;
+	margin: 6px 0;
+	border-radius: 8px 8px 8px 2px;
+}
+
+.first_box span {
+    font-weight: 700;
+    margin-right: 0.4em;
+}
+
+.radio {
+    background-color: hsl(289, 100%, 72%);
+}
+
+.screen-text-box {
+	width: 100%;
+	height: 30px;
+	background: white;
+	border-radius: 35px;
+	padding: 0px 8px;
+	border: none;
+}
+
+.input-box {
+    display: flex;
+    margin-top: 0.22em;
+}
+
+.input-box input {
+	width: 100%;
+	height: 30px;
+	border: none;
+	border-radius: 35px;
+	background: transparent;
+	margin: 0px 0px;
+	outline: none;
+	padding-left: 10px;
+}
+
+.send_button {
+    width: 20px;
+}
+
+.simple-text {
+	width: 60%;
+}
+
+.simple-text h1 {
+    margin: 0.3em;
+}
+
